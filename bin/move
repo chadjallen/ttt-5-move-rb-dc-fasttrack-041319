@@ -16,12 +16,16 @@ board[6]
 board[7]
 board[8]
 
+def input_to_index(index)
+  index = input_to_index
+end
+
+def move(defaultplayer)
+defaultplayer = "X"
+end
+
+puts display_board
 
 
-puts "Where would you like to go?"
-input = gets.strip
 
-input_to_index(input)
-move(board, input, user_marker = "X")
-display_board(board)
 
