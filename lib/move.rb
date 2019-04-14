@@ -6,11 +6,14 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def input_to_index(input)
-  input.to_i - 1
+def input_to_index(userinput)
+  if userinput.to_i = '5'
+    '5'.to_i
 end
 
-def move(board, input, user_marker = "X")
+def move(board, index, character)
+  character = "X"
   board[input.to_i] = user_marker
 end
+
 
